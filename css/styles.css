@@ -107,7 +107,7 @@ img {
   border-radius: 0px 0px 4px 4px;
 }
 .blok-name-team {
-  margin: 32px 16px;
+  padding: 32px 16px;
 }
 .subtitle-team {
   margin-bottom: 8px;
@@ -352,7 +352,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  gap: 24px;
+
   row-gap: 48px;
 }
 
@@ -365,9 +365,12 @@ img {
   padding-left: 16px;
   padding-bottom: 32px;
 }
+.items-portfolio {
+  gap: 24px;
+}
 .name-item {
   margin-bottom: 8px;
 }
-.container-footer {
+.footer {
   padding: 100px 0;
 }
